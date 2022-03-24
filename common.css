@@ -64,6 +64,9 @@ border: none;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .section p{
   width:50%;
@@ -72,9 +75,7 @@ border: none;
   padding:20px;
   font-size:1.5em;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 .section img{
   width: 100%;
