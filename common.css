@@ -26,7 +26,7 @@ table,td,th{
   padding: 0;
 }
 header{
-border: 1px solid black;
+border: none;
 width: 100%;
 height: 100px;
 position: fixed;
@@ -48,6 +48,7 @@ border: none;
 .content{
   border: 1px solid black;
   height: 100%;
+  margin: auto;
 }
 .content-wrap{
   height: 100%;
@@ -109,16 +110,73 @@ footer{
   bottom: 0;
   left: 0;
 }
+nav{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top:15px;
+  left: 15px;
+  border: 1px solid black;
+}
+.m-bt{
+  width: 100%;
+  height: 100%;
+  background-color:transparent ;
+  border: none;
+
+}
+.main-nav{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 400px;
+  height: auto;
+  border: 1px solid black;
+  background-color: rgba(255,255,255,0.3);
+}  
+.main-nav>li{
+  border: 1px solid black;
+  margin: 30px;
+  height: auto;
+  text-align: center;
+  background-color:rgba(255,255,255,0.3);
+  
+ 
+}
+.main-nav>li>a{
+  display:block;
+  border: 1px solid black;
+  color:black;
+  background-color: white;
+  padding: 8px;
+  font-size: 1em;
+}
+ul{
+  list-style: none;
+}
+li{
+  border: 1px solid black;
+  margin: 10px;
+  height: auto;
+
+}
+a{
+  background-color: white;
+  display: block;
+  padding: 5px;
+  text-align: center;
+  font-size: 1em;
+}
 h1{
   border: none;
   margin: auto;
   background-color:none;
   width: 30%;
-  height: 80px;
+  height: 90px;
   margin-top: 10px;
   margin-bottom: -15px;
  
-  
 }
 h1 img{
   width: 100%;
@@ -128,7 +186,7 @@ h1 img{
   height: 80px;
   border: none;
   position: absolute;
-  right:10px;
+  right:0;
   top:-5px;
   margin: auto;
   padding: 20px;
@@ -137,19 +195,12 @@ h1 img{
   align-items: center;
   font-size: 1.5em;
 }
-.m-bt{
-  border: none;
-  margin: auto;
-  padding: 0;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  align-items: center;
-  padding: 10px;
-  margin-left: 30px;
-  margin-top: 20px;
-  
+.login-g a{
+  display: inline-block;
+  padding: 0 10px;
+
 }
+
 .main-wrap{
 
 }
