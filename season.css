@@ -1,0 +1,27 @@
+header{
+  position: relative;
+  background-color:  rgb(214, 211, 211);
+}
+#s0, #s1, #s2{
+background-color: rgb(214, 211, 211);
+background-image: none;
+padding:20px ;
+}
+.season-wrap{
+border: 1px solid black;
+}
+.season-wrap>li{
+  border: 1px solid black;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  position: relative;
+}
+.season-wrap>li img{
+
+}
+
+
+.season-wrap>li>p{
+  border: 1px solid black;
+}

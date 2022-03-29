@@ -26,7 +26,7 @@ table,td,th{
   padding: 0;
 }
 header{
-border: none;
+/* border: 1px solid black; */
 width: 100%;
 height: 100px;
 position: fixed;
@@ -75,8 +75,19 @@ border: none;
   text-align:center;
   padding:20px;
   font-size:1.5em;
-  text-align: center;
+}
+.section p1{
+  width:50%;
+  background-color:rgba(255,255,255,0.5);
+  padding:20px;
+  font-size:1.3em;
   
+}
+.section p2{
+  width:50%;
+  background-color:rgba(255,255,255,0.5);
+  padding:20px;
+  font-size:1.3em;
 }
 .section img{
   width: 100%;
@@ -132,51 +143,60 @@ nav{
   list-style: none;
   width: 400px;
   height: auto;
-  border: 1px solid black;
+  border:none;
   background-color: rgba(255,255,255,0.3);
 }  
 .main-nav>li{
-  border: 1px solid black;
+  border: none;
   margin: 30px;
   height: auto;
-  text-align: center;
-  background-color:rgba(255,255,255,0.3);
-  
- 
+  background-color:transparent;
+  display: none;
 }
 .main-nav>li>a{
   display:block;
-  border: 1px solid black;
-  color:black;
-  background-color: white;
+  border: none;
+  color:#380736;
+  background-color: transparent;
   padding: 8px;
-  font-size: 1em;
+  font-size: 1.2em;
+  
+}
+.main-nav>li>a:hover{
+  background-color: #868685;
+  color: white;
+}
 }
 ul{
   list-style: none;
 }
 li{
-  border: 1px solid black;
+  border:none;
   margin: 10px;
   height: auto;
-
+  list-style: none;
 }
-a{
-  background-color: white;
+.main-nav a{
+  background-color: transparent;
+  
   display: block;
   padding: 5px;
-  text-align: center;
-  font-size: 1em;
+  font-size: 1.2em;
+  color: #641360;
+  text-shadow: 1px 1px 0 burlywood
+}
+a:hover{
+  background-color: #868685;
+  color: white;
 }
 h1{
   border: none;
   margin: auto;
   background-color:none;
-  width: 30%;
+  width: 20%;
   height: 90px;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: -15px;
- 
 }
 h1 img{
   width: 100%;
@@ -193,7 +213,7 @@ h1 img{
   text-align: center;
   display: flex;
   align-items: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 .login-g a{
   display: inline-block;
@@ -202,6 +222,6 @@ h1 img{
 }
 
 .main-wrap{
-
+position: absolute;
 }
 
