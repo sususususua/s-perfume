@@ -18,15 +18,31 @@ header{
   align-items: center;
 }
 .img-wrap>div{
-border: 1px solid black;
+/* border: 1px solid black; */
 width: 25%;
 height: auto;
-padding: 20px;
+padding: 30px;
+
 
 }
 .img-wrap>div img{
   width: 100%;
+  border-radius: 10%;
+  padding: 10px;
 }
 p{
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+div p{
+text-align: center;
+line-height: 30px;
+}
+div p span{
+  color: red;
+} 
+div p bel{
+  color: #aaaaaa;
+}
+del {
+  text-decoration: line-through;
 }

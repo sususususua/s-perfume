@@ -1,0 +1,136 @@
+@charset "utf-8"; 
+html,body{
+  height: auto;
+}
+header{
+  position: relative;
+  background-color: rgb(248, 247, 247);
+}
+.content{
+  
+  
+}
+.img-form-wrap{
+  border: 1px solid black;
+ display: flex;
+  justify-content: space-around;
+}
+.img-form-wrap>div{
+ width: 45%;
+ border: 1px solid black;
+  
+}
+.img-wrap{
+width: 80%;
+margin: auto;
+}
+.img-wrap img{
+  width: 100%;
+}
+.m-l{
+  border: 1px solid black;
+  display: flex;
+  width:40%;
+  justify-content: space-around;
+  list-style: none;
+  margin: auto;
+}
+.m-l>li{
+  width: 20%;
+  
+
+}
+.m-l>li img{
+  width: 100%;
+}
+
+.text-wrap{
+
+}
+.text-wrap h4{
+  /* border: 1px solid black; */
+  border-bottom:1px solid black;
+  padding: 20px;
+  font-size: 1em;
+  font-family: "굴림";
+  margin: 20px;
+}
+del{
+  /* border: 1px solid black; */
+  display: block;
+  font-size: 0.8em;
+  margin: 10px;
+  
+}
+.rebate{
+  /* border: 1px solid black; */
+  display: inline-block;
+  color: red;
+  margin-left: 30px;
+  padding: 10px;
+  font-size: 0.9em;
+}
+.price{
+  /* border: 1px solid black; */
+  display: block;
+  margin-left: 70px;
+  font-size: 1.1em;
+  color: black;
+  
+}
+.big{
+  /* border: 1px solid black; */
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  margin: 30px;
+
+}
+.option{
+  /* border: 1px solid black; */
+  display: block;
+  padding: 10px;
+  width: 98%;
+  margin: 10px;
+  height: auto;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+
+}
+.mini{
+  text-align: center;
+  margin: 10px;
+ 
+}
+.mini-option{
+  /* border: 1px solid black; */
+  display: inline-block;
+  width: 25%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  margin: auto;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+}
+.option1{
+  margin-left: 90%;
+  width: 10%;
+  padding: 5px;
+  border-radius: 30px;
+  border: none;
+  
+}
+.text{
+  /* border: 1px solid black; */
+  margin: 20px;
+  padding: 10px;
+  border-top: 1px solid black;
+}
+span{
+  color: red;
+}

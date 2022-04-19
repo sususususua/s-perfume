@@ -1,0 +1,14 @@
+@charset "utf-8"; 
+html,body{
+  font-family: "맑은 고딕";
+  color:black;
+  margin: auto;
+  height: 100%;
+}
+.content{
+  width: auto;
+  max-width: 1920px;
+  padding: 10%;
+  text-align: center;
+  border: 1px solid black;
+}
