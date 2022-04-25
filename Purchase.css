@@ -21,7 +21,7 @@ header{
   
 }
 .img-wrap{
-width: 80%;
+width: 50%;
 margin: auto;
 }
 .img-wrap img{
@@ -45,20 +45,20 @@ margin: auto;
 }
 
 .text-wrap{
-
+  
 }
 .text-wrap h4{
   /* border: 1px solid black; */
   border-bottom:1px solid black;
   padding: 20px;
-  font-size: 1em;
+  font-size: 2em;
   font-family: "굴림";
   margin: 20px;
 }
 del{
   /* border: 1px solid black; */
   display: block;
-  font-size: 0.8em;
+  font-size: 1.2em;
   margin: 10px;
   
 }
@@ -68,13 +68,13 @@ del{
   color: red;
   margin-left: 30px;
   padding: 10px;
-  font-size: 0.9em;
+  font-size: 1.4em;
 }
 .price{
   /* border: 1px solid black; */
   display: block;
   margin-left: 70px;
-  font-size: 1.1em;
+  font-size: 1.6em;
   color: black;
   
 }
@@ -83,7 +83,8 @@ del{
   margin: auto;
   padding: 20px;
   text-align: center;
-  margin: 30px;
+  margin: 40px;
+  font-size: 2em;
 
 }
 .option{
@@ -91,7 +92,7 @@ del{
   display: block;
   padding: 10px;
   width: 98%;
-  margin: 10px;
+  margin: 30px;
   height: auto;
   border-radius: 15px;
   background-color: whitesmoke;
@@ -101,13 +102,13 @@ del{
 }
 .mini{
   text-align: center;
-  margin: 10px;
+  margin: 20px;
  
 }
 .mini-option{
   /* border: 1px solid black; */
   display: inline-block;
-  width: 25%;
+  width:30%;
   justify-content: space-around;
   align-items: center;
   padding: 5px;
@@ -130,30 +131,61 @@ del{
   margin: 20px;
   padding: 10px;
   border-top: 1px solid black;
+  font-size:1.2em;
 }
 span{
   color: red;
 }
 .review{
-  
+   position: relative;
+   width: 80%;
+  margin-left: 300px;
 } 
 
-.review h5{
+.img-wp h5{
   border: 1px solid black;
+  font-size: 1.5em;
+  font-family: "돋음";
+  text-align: center;
 }
 .img-wp{
   border: 1px solid black;
-  width: 100%;
+  width: 60%;
   border-radius: 15px;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   
 }
 .img-wp>li{
+  display: block;
+  padding: 10px;
   
 }
 .img-wp>li img{
   border: 1px solid black;
   border-radius:35%;
+  width: 10%;
+  
 }
 .img-wp p{
   border: 1px solid black;
+  width: 85%;
+  float: right;
+  margin-top: 50px;
+  text-align: center;
+}
+.text-a{
+  border: 1px solid black;
+  margin: auto;
+  font-size: 2em;
+  padding: 10px;
+   margin-top:30px;
+  margin-bottom: 30px;
+  width: 96%;
+}
+.text-a p{
+  
 }
