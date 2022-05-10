@@ -1,11 +1,17 @@
+
+element.style {
+
+}
 header{
-  position: relative;
   background-color: rgb(248, 247, 247);
+
 }
 #s0, #s1, #s2{
 background-color: rgb(248, 247, 247);
 background-image: none;
 padding:20px ;
+font-size: 1.2em;
+
 }
 .content-wrap{
   height: auto;
@@ -27,9 +33,9 @@ padding:20px ;
   justify-content: center;
   align-items: center;
 }
-.section p{
+.section p3{
   width:80%;
-  background-color:rgba(255,255,255,0.1);
+  background-color:rgba(255,255,255,0.5);
   text-align:center;
   padding:20px;
   margin: auto;
@@ -52,7 +58,8 @@ background-color:transparent;
 width:100%;
 height: auto;
 font-size: 1.3em;
-margin-left: 30%;
+text-align: center;
+margin-top: 100px;
 }
 
 h3{
@@ -60,29 +67,85 @@ text-align: center;
 border: none;
 width: 100%;
 height: auto;
-font-size: 1.2em;
+font-size: 2em;
 padding: 10px;
 margin: auto;
 padding: 10px;
+color:red;
 }
-h4{
+span{
   color: red;
+ 
 }
-div{ 
+.di-wrap{ 
 
 justify-content: center;
 align-items: center;
 border: none;
-font-size:1.1em;
+width: 70%;
+font-size: 0.8em;
+
+}
+.di-wrap p4{
+  font-size: 1.2em;
 }
 .youtobe{
 position: relative;
-width: 90%;
-height: 0;
+width: 100%;
+
 padding-bottom: 50%;
 }
 .youtobe iframe{
 position: absolute;
 width: 100%;
 height: 100%;
+}
+
+
+@media screen and (max-width:1000px){
+
+}
+
+@media screen and (max-width:800px){
+  h2{
+    margin-top:80px
+  }
+  .di-wrap{
+    font-size: 1em;
+    width: 100%;
+  }
+  .section p4 {
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width:640px){
+  h2{
+    margin-top:80px
+  }
+  .di-wrap{
+    font-size: 1em;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:480px){
+  .youtobe{
+    width: 100%;
+    height: auto;
+  }
+  h2{
+    margin-top:80px
+  }
+  .di-wrap{
+    font-size: 1.1em;
+    width: 100%;
+    text-align: center;
+  }
+  .section p4{
+    width: 100%;
+  }
+  
 }

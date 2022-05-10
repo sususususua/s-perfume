@@ -2,21 +2,22 @@
 <html lang="ko">
     <head>
         <meta charset="utf-8">
-        <meta name="keyword" content="키워드 작성, 키워드와 키워드는 쉼표로 구분">
+        <meta name="keyword" content="향수,여성향수,남성향수,중성향수,계절향수">
         <meta name="description" content="문서의 설명, 검색 결과에 표시되는 문자를 지정">
-        <meta name="author" content="소유자">
+        <meta name="author" content="손수아">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:type" content="형식">
-        <meta property="og:title" content="페이지 제목">
+        <meta property="og:title" content="s-perfume">
         <meta property="og:description" content="페이지 설명">
-        <meta property="og:image" content="대표 이미지">
-        <meta property="og:url" content="http://www.comlearn.co.kr">
-        <title>기본작성입니다.</title>
+        <meta property="og:image" content=img src="images/a19.jpg">
+        <meta property="og:url" content="http:// ssa2595.dothome.co.kr">
+        <title>당신의 향기 s-perfume 입니다.</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="css/common.css" rel="stylesheet">
         <link href="css/Purchase.css" rel="stylesheet">
-        <script src="js/common.js"></script>
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/common.js"></script>
         <style>
             /* 디자인 구역 */
             
@@ -28,53 +29,101 @@
     </head>
      <body>
           
-            <header>
-              <div class="header-wrap">
-               
-                <nav>
-                  <button class="fa fa-bars m-bt"></button>
-                  <ul class="main-nav">
-                    <li><a href="introduction.html">르 퍼퓸 데 플뢰르 소개</a></li>
-                    <li><a href="season.html">사계절 별 추천 하는 한종류의 향수</a>
-                      <ul>
-                        <li><a href="#">겨울</a></li>
-                        <li><a href="#">봄</a></li>
-                        <li><a href="#">여름</a></li>
-                        <li><a href="#">가을</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="perfume.html">향수</a>
-                      <li><a href="Purchase.html">구매</a>
-                    <ul>
-                      <li><a href="#">여성 향수</a></li>
-                      <li><a href="#">남성 향수</a></li>
-                      <li><a href="#">중성 향수</a></li>
-                    </ul>
-                  </li>
-                    <li><a href="#">향수 노트에 관해서</a></li>
-                  </ul>
-                </nav>
-               
-              
-                
-               <h1>
-                 <img src="images/logo33.png" alt="르 퍼퓸 데 플뢰르(꽃 의 향기)">
-                </h1>
-                
-               
-
+      <header>
             
-             
-              <div class="login-g">
-                <a href="#">로그인</a>|
             
-                <a href="#">회원가입</a>|
-               
+        <div class="header-wrap">
+          <nav>
+            <button class="fa fa-bars m-bt"></button>
+            <div class="b-wrap">
+              <div class="login-p">
+                <a href="#" class="login-bt">로그인</a> &nbsp;|
+                &nbsp;
+                <a href="hoewongaib.html" class="introduction">회원가입</a> &nbsp;|
+                &nbsp;
                 <a href="#">마이페이지</a>
               </div>
+              <ul class="main-nav">
+                
+                <li><a href="introduction.html">르 퍼퓸 데 플뢰르 소개</a></li>
+                <li><a href="season.html">사계절 별 추천 하는 한종류의 향수</a>
+                  <ul>
+                    <li><a href="#">겨울</a></li>
+                    <li><a href="#">봄</a></li>
+                    <li><a href="#">여름</a></li>
+                    <li><a href="#">가을</a></li>
+                  </ul>
+                </li>
+                <li><a href="perfume.html">향수</a>
+                <li><a href="Purchase.html">구매</a>
+                <ul>
+                  <li><a href="#">여성 향수</a></li>
+                  <li><a href="#">남성 향수</a></li>
+                  <li><a href="#">중성 향수</a></li>
+                </ul>
+              </li>
+                
+              </ul>
             </div>
-            </header>
-            <div class="content">           
+          </nav>
+         
+        
+          
+          <h1>
+            <a href="index.html"> 
+              <img src="images/logo33.png" alt="르 퍼퓸 데 플뢰르(꽃 의 향기)">
+            </a>
+            </h1>
+          
+         
+        </div>
+      
+       
+        <div class="login-g">
+          <a href="#" class="login-bt">로그인</a>|
+
+          <a href="hoewongaib.html" class="introduction">회원가입</a>|
+         
+          <a href="#">마이페이지</a>
+        </div>
+      </div>
+      </header>
+            <div class="content">
+               
+              <div id="main">
+                <div class="modal-wrap">
+                  <div class="login-m">
+                    <button class="login-x">x</button>
+                      <h2>로그인</h2>     
+                      <form action="" class="form">
+                        <ul class="login-box">
+                          <li>
+                            <span class="icon"><img src="images/login.png" alt="아이디"></span>
+                            <input type="text" name="id" placeholder="아이디" maxlength="16">
+                          </li>
+                          <li>
+                            <span class="icon"><img src="images/pass.png" alt="비밀번호"></span>
+                            <input type="password" name="psw" placeholder="비밀번호" maxlength="16">
+                          </li>
+                          <li><input type="checkbox" name="chk" checked="">로그인 상태유지</li>
+                          <li>
+                            <input type="button" name="l-bt" value="로그인" <="" li="">
+                        </li></ul>
+                        <div class="sns">
+                          <a href="#"><img src="images/kaka.png" alt="카톡"></a>
+                          <a href="#"><img src="images/face.png" alt="페북"></a>
+                          <a href="#"><img src="images/insta.png" alt="인스타"></a>
+                          <a href="#"><img src="images/twe.png" alt="트위터"></a>
+                        </div>
+                        <div class="find-g">
+                          <a href="#">아이디 찾기</a> |
+                          <a href="#">비밀번호 찾기</a> |
+                          <a href="#">회원가입</a>
+                        </div> 
+                      </form>
+                    </div>
+                  </div>
+              </div>           
                <div class="img-form-wrap">
                  <div class="img-wrap">
                     <div>
@@ -129,7 +178,7 @@
                 산뜻한 화이트 로즈와 톡 쏘는 핑크 페퍼, 알데히드의 상쾌한 향기로 시작되는 ‘블랑쉬’의 향은 모던함과 그윽함이 공존하는 바이올렛, 네롤리, 작약으로 이어지며 블론드 우드와 샌들 우드, 머스크로 묵직하면서도 포근한 향기로 마무리되어, 다가오는 산뜻한 스프링 시즌의 선물 아이템으로 제격이다.<br>
                 설레는 마음을 담아 소중한 사람에게 선물할 바이레도 ‘블랑쉬 오 드 퍼퓸’은 도산 플래그십 스토어와 전국 바이레도 백화점 매장 그리고 SI 빌리지(sivillage.com)에서 만나볼 수 있다.
                </p>
-            </div>
+              </div>
             
               <div class="review">
                
@@ -154,13 +203,14 @@
                 </ul>
                
               </div>
+              <footer>
+                <div class="footer-wrap">&copy;2022.03.24</div>
+              </footer>
             </div>
           
 
-            <footer>
-              <div class="footer-wrap">&copy;2022.03.24</div>
-            </footer>
-              
+         
+          
             
            
     </body>

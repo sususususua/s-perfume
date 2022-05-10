@@ -2,89 +2,151 @@
 <html lang="ko">
     <head>
         <meta charset="utf-8">
-        <meta name="keyword" content="키워드 작성, 키워드와 키워드는 쉼표로 구분">
+        <meta name="keyword" content="향수,여성향수,남성향수,중성향수,계절향수">
         <meta name="description" content="문서의 설명, 검색 결과에 표시되는 문자를 지정">
-        <meta name="author" content="소유자">
+        <meta name="author" content="손수아">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:type" content="형식">
-        <meta property="og:title" content="페이지 제목">
+        <meta property="og:title" content="s-perfume">
         <meta property="og:description" content="페이지 설명">
-        <meta property="og:image" content="대표 이미지">
-        <meta property="og:url" content="http://www.comlearn.co.kr">
-        <title>기본작성입니다.</title>
+        <meta property="og:image" content=img src="images/a19.jpg">
+        <meta property="og:url" content="http:// ssa2595.dothome.co.kr">
+        <title>당신의 향기 s-perfume 입니다.</title>>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="css/common.css" rel="stylesheet">
-        <script src="js/common.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/common.js"></script>
         <style>
             /* 디자인 구역 */
             
         </style>
         <script>
             // Javascript, jQuery 작성 script 구역
-          
+            //   $(document).ready(function(){
+            //   $(".notic-x").click(function(){
+            //     $(".notic").hide();
+            //   });
+            //   $(".login-bt").click(function(){
+            //     $(".modal-wrap").show();
+            //   });
+            //   $(".login-x").click(function(){
+            //     $(".modal-wrap").hide();
+            //   });
+            // });
         </script>
     </head>
      <body>
           
-            <header>
+        <header>
+            
+            
               <div class="header-wrap">
-               
                 <nav>
                   <button class="fa fa-bars m-bt"></button>
-                  <ul class="main-nav">
-                    <li><a href="introduction.html">르 퍼퓸 데 플뢰르 소개</a></li>
-                    <li><a href="#">사계절 별 추천 하는 한종류의 향수</a>
+                  <div class="b-wrap">
+                    <div class="login-p">
+                      <a href="#" class="login-bt">로그인</a> &nbsp;|
+                      &nbsp;
+                      <a href="hoewongaib.html" class="introduction">회원가입</a> &nbsp;|
+                      &nbsp;
+                      <a href="#">마이페이지</a>
+                    </div>
+                    <ul class="main-nav">
+                      
+                      <li><a href="introduction.html">르 퍼퓸 데 플뢰르 소개</a></li>
+                      <li><a href="season.html">사계절 별 추천 하는 한종류의 향수</a>
+                        <ul>
+                          <li><a href="#">겨울</a></li>
+                          <li><a href="#">봄</a></li>
+                          <li><a href="#">여름</a></li>
+                          <li><a href="#">가을</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="perfume.html">향수</a>
+                      <li><a href="Purchase.html">구매</a>
                       <ul>
-                        <li><a href="#">겨울</a></li>
-                        <li><a href="#">봄</a></li>
-                        <li><a href="#">여름</a></li>
-                        <li><a href="#">가을</a></li>
+                        <li><a href="#">여성 향수</a></li>
+                        <li><a href="#">남성 향수</a></li>
+                        <li><a href="#">중성 향수</a></li>
                       </ul>
                     </li>
-                    <li><a href="#">향수</a>
-                    <ul>
-                      <li><a href="#">여성 향수</a></li>
-                      <li><a href="#">남성 향수</a></li>
-                      <li><a href="#">중성 향수</a></li>
+                      
                     </ul>
-                  </li>
-                    <li><a href="#">향수 노트에 관해서</a></li>
-                  </ul>
+                  </div>
                 </nav>
                
               
                 
-               <h1>
-                 <img src="images/logo33.png" alt="르 퍼퓸 데 플뢰르(꽃 의 향기)">
-                </h1>
+                <h1>
+                  <a href="index.html"> 
+                    <img src="images/logo33.png" alt="르 퍼퓸 데 플뢰르(꽃 의 향기)">
+                  </a>
+                  </h1>
                 
-               
-
+              
+              </div>
             
              
               <div class="login-g">
-                <a href="#">로그인</a>|
-            
-                <a href="#">회원가입</a>|
+                <a href="#" class="login-bt">로그인</a>|
+      
+                <a href="hoewongaib.html" class="introduction">회원가입</a>|
                
                 <a href="#">마이페이지</a>
               </div>
             </div>
             </header>
             <div class="content">
+              
+              <div id="main">
+                <div class="modal-wrap">
+                  <div class="login-m">
+                    <button class="login-x">x</button>
+                      <h2>로그인</h2>     
+                      <form action="" class="form">
+                        <ul class="login-box">
+                          <li>
+                            <span class="icon"><img src="images/login.png" alt="아이디"></span>
+                            <input type="text" name="id" placeholder="아이디" maxlength="16">
+                          </li>
+                          <li>
+                            <span class="icon"><img src="images/pass.png" alt="비밀번호"></span>
+                            <input type="password" name="psw" placeholder="비밀번호" maxlength="16">
+                          </li>
+                          <li><input type="checkbox" name="chk" checked="">로그인 상태유지</li>
+                          <li>
+                            <input type="button" name="l-bt" value="로그인" <="" li="">
+                        </li></ul>
+                        <div class="sns">
+                          <a href="#"><img src="images/kaka.png" alt="카톡"></a>
+                          <a href="#"><img src="images/face.png" alt="페북"></a>
+                          <a href="#"><img src="images/insta.png" alt="인스타"></a>
+                          <a href="#"><img src="images/twe.png" alt="트위터"></a>
+                        </div>
+                        <div class="find-g">
+                          <a href="#">아이디 찾기</a> |
+                          <a href="#">비밀번호 찾기</a> |
+                          <a href="#">회원가입</a>
+                        </div> 
+                      </form>
+                    </div>
+                  </div>
+              </div>
+              
+                
+              
               <div class="content-wrap">
                 
                   <div class="section" id="s0">
-                    <p> 무슨 향수 쓰세요?</p>
+                    <p class="p0"> 무슨 향수 쓰세요?</p>
                   </div>
                   <div class="section" id="s1">
-                    <p1>
+                    <p class="p1 ">
                       향수 중에 유명한 일화가 있는데 알고 계시는가요?<br>
                       어느 모 브랜드 트레이드 마크인 향수입니다.<br>
                       50~60년 때 외국 여배우가 잠 때 무엇을 입고 자냐는 기자의 말에<br>
                       "저는 자기 전에 이거 몇 방울을 뿌리고 자요"라고 했는데요.<br>
-                    </p1>
+                    </p>
                   </div>
                   <div class="section" id="s2">
                     <p2>
@@ -99,6 +161,7 @@
                   </footer>
               </div>
             </div>
+           
            
     </body>
   </html>

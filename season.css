@@ -1,5 +1,5 @@
 header{
-  position: relative;
+  
   background-color: rgb(248, 247, 247);
 }
 #s0, #s1, #s2{
@@ -8,12 +8,13 @@ background-image: none;
 padding:20px ;
 }
 .season-wrap {
-border: 1px solid black;
+border:none;
 background-color: rgb(248, 247, 247);
+margin-top: 100px;
 }
 .season-wrap>li{
   border: 1px solid black;
-  width: 100%;
+  width: auto;
   height: 100%;
   padding: 10px;
   position: relative;
@@ -64,4 +65,70 @@ h3{
   width: 50%;
   margin: 25px;
 
+}
+@media screen and (max-width:1000px){
+  h2{
+    font-size: 1.7em;
+  }
+  h3{
+    font-size: 2em;
+  }
+  .season-wrap>li>div p {
+    font-size: 1em;
+  }
+  
+}
+
+@media screen and (max-width:800px){
+  h2{
+    font-size: 1.6em;
+  }
+  h3{
+    font-size: 1.8em;
+  }
+  .season-wrap>li>div p {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width:640px){
+  
+  h2{
+    font-size: 1.3em;
+  }
+  h3{
+    font-size: 1.3em;
+  }
+  .season-wrap>li>div p {
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width:480px){
+  h2{
+    font-size: 1.1em;
+  }
+  h3{
+    font-size: 1em;
+  }
+  .season-wrap>li>div p {
+    font-size: 1em;
+  }
+  .season-wrap>li div img {
+    width: 100%;
+    border-radius: 30px;
+  }
+  li{
+    margin:0;
+  }
+  .season-wrap>li{
+    flex-direction: column;
+  }
+  .season-wrap div{
+    width: 90%;
+  }
+  .season-wrap div:first-child{
+    width: 90%;
+  }
+  
 }

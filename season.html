@@ -2,21 +2,22 @@
 <html lang="ko">
     <head>
         <meta charset="utf-8">
-        <meta name="keyword" content="키워드 작성, 키워드와 키워드는 쉼표로 구분">
+        <meta name="keyword" content="향수,여성향수,남성향수,중성향수,계절향수">
         <meta name="description" content="문서의 설명, 검색 결과에 표시되는 문자를 지정">
-        <meta name="author" content="소유자">
+        <meta name="author" content="손수아">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:type" content="형식">
-        <meta property="og:title" content="페이지 제목">
+        <meta property="og:title" content="s-perfume">
         <meta property="og:description" content="페이지 설명">
-        <meta property="og:image" content="대표 이미지">
-        <meta property="og:url" content="http://www.comlearn.co.kr">
-        <title>기본작성입니다.</title>
+        <meta property="og:image" content=img src="images/a19.jpg">
+        <meta property="og:url" content="http:// ssa2595.dothome.co.kr">
+        <title>당신의 향기 s-perfume 입니다.</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="css/common.css" rel="stylesheet">
         <link href="css/season.css" rel="stylesheet">
-        <script src="js/common.js"></script>
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/common.js"></script>
         <style>
             /* 디자인 구역 */
             
@@ -28,53 +29,100 @@
     </head>
      <body>
           
-            <header>
-              <div class="header-wrap">
-               
-                <nav>
-                  <button class="fa fa-bars m-bt"></button>
-                  <ul class="main-nav">
-                    <li><a href="introduction.html">르 퍼퓸 데 플뢰르 소개</a></li>
-                    <li><a href="season.html">사계절 별 추천 하는 한종류의 향수</a>
-                      <ul>
-                        <li><a href="#">겨울</a></li>
-                        <li><a href="#">봄</a></li>
-                        <li><a href="#">여름</a></li>
-                        <li><a href="#">가을</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="perfume.html">향수</a>
-                      <li><a href="Purchase.html">구매</a>
-                    <ul>
-                      <li><a href="#">여성 향수</a></li>
-                      <li><a href="#">남성 향수</a></li>
-                      <li><a href="#">중성 향수</a></li>
-                    </ul>
-                  </li>
-                    <li><a href="#">향수 노트에 관해서</a></li>
-                  </ul>
-                </nav>
-               
-              
-                
-               <h1>
-                 <img src="images/logo33.png" alt="르 퍼퓸 데 플뢰르(꽃 의 향기)">
-                </h1>
-                
-               
-
+      <header>
             
-             
-              <div class="login-g">
-                <a href="#">로그인</a>|
             
-                <a href="#">회원가입</a>|
-               
+        <div class="header-wrap">
+          <nav>
+            <button class="fa fa-bars m-bt"></button>
+            <div class="b-wrap">
+              <div class="login-p">
+                <a href="#" class="login-bt">로그인</a> &nbsp;|
+                &nbsp;
+                <a href="hoewongaib.html" class="introduction">회원가입</a> &nbsp;|
+                &nbsp;
                 <a href="#">마이페이지</a>
               </div>
+              <ul class="main-nav">
+                
+                <li><a href="introduction.html">르 퍼퓸 데 플뢰르 소개</a></li>
+                <li><a href="season.html">사계절 별 추천 하는 한종류의 향수</a>
+                  <ul>
+                    <li><a href="#">겨울</a></li>
+                    <li><a href="#">봄</a></li>
+                    <li><a href="#">여름</a></li>
+                    <li><a href="#">가을</a></li>
+                  </ul>
+                </li>
+                <li><a href="perfume.html">향수</a>
+                <li><a href="Purchase.html">구매</a>
+                <ul>
+                  <li><a href="#">여성 향수</a></li>
+                  <li><a href="#">남성 향수</a></li>
+                  <li><a href="#">중성 향수</a></li>
+                </ul>
+              </li>
+                
             </div>
-            </header>
+          </nav>
+         
+        
+          
+          <h1>
+            <a href="index.html"> 
+              <img src="images/logo33.png" alt="르 퍼퓸 데 플뢰르(꽃 의 향기)">
+            </a>
+            </h1>
+          
+         
+        </div>
+      
+       
+        <div class="login-g">
+          <a href="#" class="login-bt">로그인</a>|
+
+          <a href="hoewongaib.html" class="introduction">회원가입</a>|
+         
+          <a href="#">마이페이지</a>
+        </div>
+      </div>
+      </header>
             <div class="content">
+               
+              <div id="main">
+                <div class="modal-wrap">
+                  <div class="login-m">
+                    <button class="login-x">x</button>
+                      <h2>로그인</h2>     
+                      <form action="" class="form">
+                        <ul class="login-box">
+                          <li>
+                            <span class="icon"><img src="images/login.png" alt="아이디"></span>
+                            <input type="text" name="id" placeholder="아이디" maxlength="16">
+                          </li>
+                          <li>
+                            <span class="icon"><img src="images/pass.png" alt="비밀번호"></span>
+                            <input type="password" name="psw" placeholder="비밀번호" maxlength="16">
+                          </li>
+                          <li><input type="checkbox" name="chk" checked="">로그인 상태유지</li>
+                          <li>
+                            <input type="button" name="l-bt" value="로그인" <="" li="">
+                        </li></ul>
+                        <div class="sns">
+                          <a href="#"><img src="images/kaka.png" alt="카톡"></a>
+                          <a href="#"><img src="images/face.png" alt="페북"></a>
+                          <a href="#"><img src="images/insta.png" alt="인스타"></a>
+                          <a href="#"><img src="images/twe.png" alt="트위터"></a>
+                        </div>
+                        <div class="find-g">
+                          <a href="#">아이디 찾기</a> |
+                          <a href="#">비밀번호 찾기</a> |
+                          <a href="#">회원가입</a>
+                        </div> 
+                      </form>
+                    </div>
+                  </div>
+              </div>
               <div class="content-wrap">
                 <ul class="season-wrap">
                   <li>
@@ -86,7 +134,7 @@
                     <div>
                      
                         <br><h3> 구딸 파리 르 떵 데 헤브 오 드 뚜왈렛.
-                          <br> 50ml, 15만8천원.</h3><br>
+                          <br> 50ml / 15만8천원.</h3><br>
                       <p>  <br>
                         남프랑스 그라스의 따뜻한 느낌을 향으로 표현한 오 드 뚜왈렛.<br><br>
                         매력적인 오렌지 블로썸의 향이
@@ -98,7 +146,7 @@
                   <li>
                     <div>
                      
-                        <br> <h2>구찌 플로아 고져스 가드니아 EDT <br>
+                        <br> <h2>구찌 플로아 고져스  <br>가드니아 EDT <br>
                           50ml/11만2천원.</h2><br>
                       <p> <br>
                         패키지부터 한껏 봄으로 치장한듯한 구찌의 플로라 고져스 가드니아.<br><br>
@@ -117,7 +165,7 @@
                     </div>
                     <div>
                      
-                        <br><h2>클린 쿨코튼 60ml / 8만9천원.</h2><br>
+                        <br><h2>클린 쿨코튼 60ml / <br>8만9천원.</h2><br>
                         <p> <br>
                         이름부터 여름향수 느낌 낭낭한 클린 쿨코튼이에요.<br>
                         대표적으로 중성적인 향수로 불리는 향입니다. <br><br>
@@ -133,7 +181,7 @@
                   <li>
                     <div>
                       
-                       <h2> 딥디크 롭브르 단 로 EDT <br> 50ml/13만5천원.</h2><br>
+                       <h2> 딥디크 롭브르 단 로 EDT <br> 50ml / 13만5천원.</h2><br>
                         <br>
                       <p>  새벽 이슬을 한껏 머금은 장미가 떠오르는 묘한 장미향의 향수입니다.<br><br>
                         보통의 장미향 향수들과는 다르게 풀향? 흙향같은 자연적인 향이 

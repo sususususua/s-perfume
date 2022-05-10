@@ -3,26 +3,150 @@ html,body{
   font-family: "맑은 고딕";
   color:black;
   margin: auto;
-  height: 100%;
+  height:auto;
+  
 }
+header{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: auto;
+  z-index: 999999;
+  background-color:white;
+  }
 .content{
-  width: auto;
+  width: 30%;
   max-width: 1920px;
-  padding: 5%;
-  text-align: center;
-  border: 1px solid black;
+  padding: 2px;
+  display: flex;
+  margin-top: auto;
+  border: none;
+  background-color: white;
+  margin-top: 100px;
+}
+form[name=member]{
+  width: 100%;
+  margin-left: 0;
 }
 section{
-  border: 1px solid black;
-  margin: 20px
+  border: none;
+  margin:auto;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+select{
+  border:1px solid black;
+  width: 200px;
+  height: 30px;
+  font-size: 0.8em;
+  display: inline-block;
+  
+}
+select[name=year] {
+  margin-left: 1em;
+}
+span{
+  display: inline-block;
+  width: 20%;
+  text-align: left;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: center;
+
 }
 .i-d{
-  border: 1px solid black;
+  border: none;
   width: 100%;
-  height: 100%;
-  font-size: 2em;
-
-
+  height: auto;
+  font-size: 1.2em;
+  
+}
+.a-wrap{
+  border:none;
+  display: flex;
+  justify-content: left;
+  align-items: center;  
+  width: 100%;
+  
+  margin: 3px;
+  height:auto;
+  padding: 10px 0;
+}
+.year{
+  border: 1px solid black; 
+  
+}
+input[name="user_IDcheck"],
+input[name="user_PWcheck"],
+input[name="certification"],
+input[name="certification"],
+input[name="a"]{
+  background-color: rgb(245, 219, 248);
+  border:none;
+}
+input {
+    writing-mode: horizontal-tb !important;
+   
+    text-align: left;
+    height:auto;
+    font-size:20px;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing:normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 10px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0.5em;
+    padding:10px 0;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
 }
 
 
+
+@media screen and (max-width:1000px){
+  
+  .content{
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width:800px){
+  .content{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:640px){
+  .content{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:480px){
+  .a-wrap{
+    flex-wrap: wrap;
+  }
+  span{
+    width: 100%;
+  
+  }
+}
